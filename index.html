@@ -29,11 +29,11 @@
 		<input id="top" type="text"><br><br>
 		<button onclick="setDivText()" class="button" id="myButton">Click Me!</button> 
 		<br><br>
-		<div id="bottom" type="text">
+		<input id="bottom" type="text">
 		
 		<script>
 		function setDivText() {
-			document.getElementById("bottom").innerText = document.getElementById("top").value;
+			document.getElementById("bottom").value = document.getElementById("top").value;
 		}
 		</script>
 	</body>
